@@ -7,3 +7,20 @@
 //
 
 import Foundation
+import UIKit
+
+class Posts: NSObject {
+    
+    var postedImage = UIImage()
+    var commentsArray = [String]()
+    var likesCount:Int?
+    var postUpdated: NSDate?
+//    var postingProfile = Profile()          add once Profile object model has been added
+    
+    init(addImage:UIImage, timeStamp : NSDate) {
+        self.postedImage = addImage
+        self.postUpdated = timeStamp
+    }
+    
+    
+}
