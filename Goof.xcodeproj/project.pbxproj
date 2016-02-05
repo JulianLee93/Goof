@@ -167,11 +167,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
 				FE8C1FCB1C642B8C0007F65C /* ProfileVC.swift in Sources */,
-=======
 				08CE631C1C64403700D3D035 /* LoginViewController.swift in Sources */,
->>>>>>> 7bc2967bc660760b0e99cd9d28ad4c0aab9a0f71
 				B9D3B1281C640F20008180B8 /* Goof.xcdatamodeld in Sources */,
 				08CE631A1C643EB600D3D035 /* Login.swift in Sources */,
 				08CE63181C641D3200D3D035 /* Profile.swift in Sources */,
