@@ -13,6 +13,7 @@
 		B9D3B12A1C640F20008180B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9D3B1291C640F20008180B8 /* Assets.xcassets */; };
 		B9D3B12D1C640F20008180B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D3B12B1C640F20008180B8 /* LaunchScreen.storyboard */; };
 		B9D3B1351C640FFE008180B8 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D3B1341C640FFE008180B8 /* Posts.swift */; };
+		FE8C1FCB1C642B8C0007F65C /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C1FCA1C642B8C0007F65C /* ProfileVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B9D3B12C1C640F20008180B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9D3B12E1C640F20008180B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9D3B1341C640FFE008180B8 /* Posts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
+		FE8C1FCA1C642B8C0007F65C /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileVC.swift; path = ../ProfileVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				B9D3B1231C640F20008180B8 /* Main.storyboard */,
+				FE8C1FC71C641BF30007F65C /* Views */,
 				B9D3B1361C641002008180B8 /* Models */,
 				B9D3B11F1C640F20008180B8 /* AppDelegate.swift */,
 				B9D3B1291C640F20008180B8 /* Assets.xcassets */,
@@ -73,6 +76,14 @@
 				B9D3B1341C640FFE008180B8 /* Posts.swift */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		FE8C1FC71C641BF30007F65C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE8C1FCA1C642B8C0007F65C /* ProfileVC.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE8C1FCB1C642B8C0007F65C /* ProfileVC.swift in Sources */,
 				B9D3B1281C640F20008180B8 /* Goof.xcdatamodeld in Sources */,
 				B9D3B1351C640FFE008180B8 /* Posts.swift in Sources */,
 				B9D3B1201C640F20008180B8 /* AppDelegate.swift in Sources */,
@@ -299,6 +311,7 @@
 				B9D3B1331C640F20008180B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
