@@ -16,7 +16,7 @@ class Profile {
     var arrayOfPosts = [] // type Posts
     var friendsArray = [] // type Profile
     var profileImage: UIImage?
-    var lastUpdated: NSDate?
+    var profileLastUpdated: NSDate?
     
     
     init(inputUsername : String, inputPassword : String, profilePicture : UIImage) {
@@ -34,9 +34,10 @@ class Profile {
         self.profileImage = updatedPicture
     }
     
-    func addPost(newPost : Posts) {
+    func addPost(newPost : Posts, timeStamp : NSDate) {
         
         self.arrayOfPosts.arrayByAddingObject(newPost)
+        self.profileLastUpdated = timeStamp
     }
     
     func deletePost(postToDelete : Posts) {
