@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 
-class Profile {
+class Profile: NSObject {
     var username: String?
     var password: String?
     var arrayOfPosts = [] // type Posts

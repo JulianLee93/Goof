@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 
 class Posts: NSObject {
+    
     var postedImage = UIImage()
     var commentsArray = [String]()
     var likesCount:Int?
@@ -20,4 +21,6 @@ class Posts: NSObject {
         self.postedImage = addImage
         self.postUpdated = timeStamp
     }
+    
+    
 }
